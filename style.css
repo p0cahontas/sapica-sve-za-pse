@@ -1,0 +1,1163 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-image: none;
+}
+.clear{
+    clear: both;
+}
+.parent{
+    overflow: hidden;
+}
+html, body, .row{
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+.row{
+    background-color: blueviolet;
+    position: relative;
+}
+header{
+    height: 80px;
+    background-color: white;
+    /* border-bottom: 1px solid black; */
+    position: relative;
+    z-index: 9;
+    
+}
+.logo{
+    width: 300px;
+    height: 100%;
+    background-color: #ecb623;
+    float: left;
+}
+.logov1{
+    float: right;
+    margin: 16px 10px 0 0;
+    transition: all .7s;
+}
+.logo:hover .logov1{
+    margin: 16px 100px 0 0;
+}
+header nav{
+    height: 100%;
+    /* margin: 0 auto; */
+    float: right;
+    margin-right: 28%;
+    display: table;
+}
+header nav ul{
+    margin-top: 31px;
+}
+header nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+}
+header nav ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: grey;
+    text-decoration: none;
+    display: inline-block;
+    /* padding: 5px 12px; */
+}
+header nav ul li:hover a{
+    color: #82d1be;
+}
+.bgr{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('img/retriver.jpg') no-repeat center;
+    background-color: green;
+    background-size: cover;
+    background-position: center 80px;
+}
+.zuti{
+    position: absolute;
+    background-color: #ecb623;
+    top: 50%;
+    left: 50%;
+    /* left: calc(50% - 258px); */
+    transform: translate(-50%, -50%);
+    /* transform: translateY(-50%); */
+    padding: 30px 100px;
+}
+.zuti h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+}
+.sivi{
+    width: 420px;
+    position: absolute;
+    background-color: rgb(36 42 44 /47%);
+    top: 100px;
+    left: calc(50% - 210px);
+    padding: 25px 0;
+
+}
+.sivi p{
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+}
+.logov2{
+    display: none;
+}
+#speed-links{
+    /* height: 600px; */
+    /* background-color: yellow; */
+    padding: 40px 0;
+}
+.holder{
+    width: 1200px;
+    /* height: 300px; */
+    /* background-color: green; */
+    margin: 0 auto;
+    /* padding-bottom: 30px; */
+}
+article{
+    width: 280px;
+    height: 430px;
+    /* background-color: brown; */
+    position: relative;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+article:hover{
+    outline: 8px solid rgb(236, 182, 35);
+    outline-offset: -8px;
+}
+article:hover .round{
+    border: 2px solid rgb(236, 182, 35);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+article:hover h3{
+    color: #ecb623;
+}
+article:hover p{
+    color: #ecb623;
+}
+article:first-child{
+    margin-left: 0;
+}
+.round{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+    top: 136px;
+    left: calc(50% - 40px);
+    border-radius: 50%;
+    border: 2px solid #e6e6e6;
+}
+.text1{
+    width: 220px;
+    height: 80px;
+    /* background-color: white; */
+    margin: 55px auto 0 auto;
+}
+.text1 h3{
+    color: #737c85;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+.text1 p{
+    color: #737c85;
+    font-size: 14px;
+    line-height: 24px;
+}
+#tekst{
+    /* background-color: blanchedalmond; */
+    padding: 40px 0;
+}
+.holder-tekst{
+    width: 1200px;
+    margin: 0 auto;
+}
+.prvi{
+    width: 540px;
+    float: left;
+}
+.prvi h1{
+    color: #737c85;
+    font-size: 19px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.prvi p{
+    color: rgb(115, 124, 133);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    line-height: 1.6;
+}
+.drugi{
+    width: 532px;
+    float: left;
+    margin-left: 128px;
+}
+.drugi h1{
+    font-family: 'Roboto', sans-serif;
+    color: #737c85;
+    font-size: 19px;
+    text-align: center;
+    padding-bottom: 55px;
+}
+.drugi p{
+    color: rgb(115, 124, 133);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    line-height: 1.6;
+    padding-bottom: 20px;
+}
+.drugi p:last-of-type{
+    padding-bottom: 0;
+}
+#galerija{
+    /* background-color: blanchedalmond; */
+    padding-top: 40px;
+}
+.galery{
+    width: 100%;
+    background-color: #ecb623;
+    padding: 25px 0;
+}
+.galery h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.images{
+    float: left;
+    width: 16.659%;
+    line-height: 0;
+    position: relative;
+}
+.images:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}
+.images img{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: rgb(36 42 44 /70%);
+}
+.images:hover .overlay{
+    background-color: rgb(36 42 44 /0);
+}
+#slider{
+    /* background-color: #95ca1e; */
+    /* padding-bottom: 40px; */
+    overflow: hidden;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 90px;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+    left: 90px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .nekitekst{
+    position: absolute;
+    width: 450px;
+    background-color: rgb(28 38 6 /30%);
+    top: 130px;
+    left: calc(50% - 8px);
+}
+.nekitekst h1{
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 2.3;
+    margin-left: 15px;
+}
+.linija{
+    position: absolute;
+    width: 4px;
+    height: 55px;
+    background-color: white;
+    top: 20px;
+    left: 270px;
+}
+.posto{
+    position: absolute;
+    top: -10px;
+    right: 35px;
+}
+.posto h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+#videii{
+    /* padding-bottom: 20px; */
+    background-color: #ffffff;
+}
+
+.video{
+    width: 500px;
+    height: 700px;
+    background-color: #eeeeee;
+    float: left;
+}
+.video ul{
+    float: right;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+.video ul li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #444e52;
+    padding-bottom: 25px;
+    list-style-type: none;
+    margin-left: 30px;
+}
+.video ul li:first-of-type{
+    color: #82d1be;
+}
+.video ul li:hover{
+    color: #82d1be;
+}
+.youtube{
+    float: left;
+    margin: 80px 0px 0 80px;
+}
+.naslov-tekst{
+    width: 800px;
+    margin: 150px auto;
+}
+#naslov{
+    background-color: #ecb623;
+    /* padding-bottom: 20px; */
+    overflow: hidden;
+    border-bottom: 10px solid #95ca1e;
+}
+#naslov h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    line-height: 1.2;
+    font-style: italic;
+}
+#naslov h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+}
+footer{
+    background-color: #242a2c;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    overflow: hidden;
+    opacity: 100%;
+}
+.holder-footer{
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: blanchedalmond; */
+}
+.sapica-logo{
+    width: 300px;
+    height: 250px;
+    border-right: 2px solid white;
+    overflow: hidden;
+    padding-bottom: 20px;
+    float: left;
+}
+.sapica-logo h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+    color: #454e51;
+}
+.sapica-logo img{
+    margin: 10px 0 0 90px;
+}
+.onama{
+    width: 300px;
+    border-right: 2px solid white;
+    overflow: hidden;
+    padding-bottom: 20px;
+    float: left;
+    height: 250px;
+}
+.onama h1{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #444e51;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.onama p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #444e51;
+    line-height: 1.7;
+    padding-left: 10px;
+    /* padding-right: 10px; */
+}
+.ikonice{
+    width: 300px;
+    border-right: 2px solid white;
+    overflow: hidden;
+    padding-bottom: 20px;
+    float: left;
+    height: 250px;
+}
+.ikonice h1{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #444e51;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.face{
+    width: 60px;
+    height: 60px;
+    background-color: #0f75bc;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-left: 15px
+    
+}
+.face:hover{
+    background-color: #245163;
+    opacity: 30%;
+}
+.face i{
+    margin: 30px 20px;
+}
+.tviter{
+    width: 60px;
+    height: 60px;
+    background-color: #25aae1;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin: 0 15px 0 15px;
+}
+.tviter:hover{
+    background-color: #245163;
+    opacity: 30%;
+}
+.tviter i{
+    margin: 30px 15px;
+}
+.google{
+    width: 60px;
+    height: 60px;
+    background-color: #c04130;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+.google:hover{
+    background-color: #245163;
+    opacity: 30%;
+}
+.google i{
+    margin: 30px 15px;
+}
+.kontakti{
+    width: 290px;
+    /* border-right: 2px solid white; */
+    overflow: hidden;
+    padding-bottom: 20px;
+    float: left;
+    height: 250px;
+}
+.kontakti h1{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #444e51;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.kontakti ul{
+    margin-left: 20px;
+    list-style-type: none;
+}
+.kontakti ul li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #444e51;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+.kontakti i{
+    margin-right: 10px;
+}
+@media all and (max-width: 1199px) and (min-width: 992px){
+    header nav{
+        margin-right: 12%;
+    }
+    .holder{
+        width: 890px;
+        /* background-color: yellow; */
+    }
+    article:last-of-type{
+        margin-left: 304px;
+    }
+    .zuti{
+        padding: 30px 85px;
+    }
+    .holder-tekst{
+        width: 890px;
+    }
+    .prvi{
+        margin-left: 180px;
+    }
+    .drugi{
+        margin-left: 180px;
+        margin-top: 70px;
+    }
+    .next {
+        right: 100px;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev{
+        left: 100px;
+    }
+    .nekitekst{
+        position: absolute;
+        width: 390px;
+        background-color: rgb(28 38 6 /30%);
+        top: 115px;
+        left: calc(50% - 60px)
+    }
+    .nekitekst h1{
+        font-size: 17px;
+    }
+    .linija{
+        top: 13px;
+        left: 240px;
+    }
+    .posto{
+        top: -13px;
+        right: 25px;
+    }
+    .posto h1{
+        font-size: 45px;
+    }
+    .video{
+        width: 450px;
+    }
+    .youtube{
+        margin: 80px 0 0 40px;
+    }
+    .vid{
+        width: 490px;
+    }
+    .holder-footer{
+        width: 1007px;
+    }
+    .sapica-logo{
+        width: 250px;
+    }
+    .sapica-logo img{
+        margin: 10px 0 0 65px;
+    }
+    .onama{
+        width: 250px;
+    }
+    .onama p{
+        font-size: 13px;
+    }
+    .ikonice{
+        width: 250px;
+    }
+    .kontakti{
+        width: 250px;
+    }
+    .kontakti ul li{
+        font-size: 15px;
+    }
+}
+@media all and (max-width: 991px) and (min-width: 768px){
+    header{
+        height: 60px;
+    }
+    header nav{
+        /* height: 60px; */
+        float: right;
+        margin-right: 11%;
+    }
+    header nav ul{
+        margin-top: 22px;
+    }
+    header nav ul li a{
+        font-size: 14px;
+    }
+    header nav ul li{
+        margin-left: 20px;
+    }
+    .bgr{
+        background-position: center 60px;
+    }
+    .zuti{
+        padding: 25px 73px;
+    }
+    .zuti h1{
+        font-size: 18px;
+    }
+    .sivi{
+        width: 330px;
+        position: absolute;
+        background-color: rgb(36 42 44 /47%);
+        top: 85px;
+        left: calc(50% - 165px);
+        padding: 18px 0px;
+    }
+    .sivi p{
+        font-size: 14px;
+    }
+    
+    .logo{
+        width: 220px;
+    }
+    .logov1{
+        width: 130px;
+        margin: 14px 5px 0 0;
+    }
+    .logo:hover .logov1{
+        margin: 14px 50px 0 0;
+    }
+    .logov2{
+        display: none;
+    }
+    .holder{
+        width: 585px;
+        /* background-color: blue; */
+    }
+    article:nth-child(3){
+        margin-left: 0;
+    }
+    .holder-tekst{
+        width: 585px;
+    }
+    .prvi{
+        margin-left: 40px;
+    }
+    .drugi{
+        margin-left: 40px;
+        margin-top: 70px;
+    }
+    .next {
+        right: 70px;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev{
+        left: 70px;
+    }
+    .nekitekst {
+        position: absolute;
+        width: 320px;
+        background-color: rgb(28 38 6 /30%);
+        top: 105px;
+        left: calc(50% - 67px);
+    }
+    .nekitekst h1{
+        font-size: 15px;
+    }
+    .linija{
+        top: 8px;
+        left: 215px;
+    }
+    .posto{
+        top: -5px;
+        left: 212px;
+    }
+    .posto h1{
+        font-size: 35px;
+    }
+    .video{
+        width: 330px;
+    }
+    .video ul{
+        margin-right: 50px;
+    }
+    .youtube{
+        margin: 80px 0 0 20px;
+    }
+    .vid{
+        width: 390px;
+    }
+    #naslov h1{
+        font-size: 33px;
+    }
+    .holder-footer{
+        width: 1007px;
+    }
+    .sapica-logo{
+        width: 250px;
+    }
+    .sapica-logo img{
+        margin: 10px 0 0 65px;
+    }
+    .onama{
+        width: 250px;
+    }
+    .onama p{
+        font-size: 13px;
+    }
+    .ikonice{
+        width: 250px;
+        margin-top: 20px;
+    }
+    .kontakti{
+        width: 250px;
+        margin-top: 20px;
+    }
+    .kontakti ul li{
+        font-size: 15px;
+    }
+    .holder-footer{
+        width: 505px;
+    }
+    
+    
+
+}
+@media all and (max-width: 767px) and (min-width: 576px){
+    
+    header{
+        height: 50px;
+    }
+    header nav{
+        /* height: 60px; */
+        float: right;
+        margin-right: 2%;
+    }
+    header nav ul{
+        margin-top: 16px;
+    }
+    header nav ul li a{
+        font-size: 12px;
+    }
+    header nav ul li{
+        margin-left: 8px;
+    }
+    .logo{
+        width: 220px;
+    }
+    .logov1{
+        width: 130px;
+        margin: 8px 8px 0 0;
+    }
+    .logo:hover .logov1{
+        margin: 8px 35px 0 0;
+    }
+    .logov2{
+        display: none;
+    }
+    .bgr{
+        background-position: center 50px;
+    }
+    .zuti{
+        padding: 20px 38px;
+     }
+    .zuti h1{
+        font-size: 16px;
+     }
+    .sivi{
+        width: 250px;
+        position: absolute;
+        background-color: rgb(36 42 44 /47%);
+        top: 75px;
+        left: calc(50% - 125px);
+        padding: 13px 0px;
+    }
+    .sivi p{
+        font-size: 12px;
+    }
+    .holder{
+        width: 280px;
+        /* background-color: green; */
+    }
+    article{
+        width: 280px;
+        margin-left: 0;
+    }
+    .holder-tekst{
+        width: 280px;
+    }
+    .prvi{
+        width: 270px;
+        margin-left: 10px;
+    }
+    .prvi h1{
+        font-size: 10px;
+    }
+    .prvi p{
+        font-size: 8px;
+    }
+    .drugi{
+        width: 270px;
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+    .drugi h1{
+        font-size: 10px;
+    }
+    .drugi p{
+        font-size: 8px;
+    }
+    #galerija{
+        display: none;
+    }
+    .next {
+        right: 30px;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev{
+        left: 30px;
+    }
+    .nekitekst {
+        position: absolute;
+        width: 270px;
+        background-color: rgb(28 38 6 /30%);
+        top: 105px;
+        left: calc(50% - 60px);
+    }
+    .nekitekst h1{
+        font-size: 12px;
+    }
+    .linija{
+        height: 40px;
+        top: 8px;
+        left: 175px;
+    }
+    .posto{
+        top: -6px;
+        left: 175px;
+    }
+    
+    .posto h1{
+        font-size: 30px;
+    }
+    .video{
+        width: 220px;
+    }
+    .video ul{
+        margin-right: 10px;
+    }
+    .youtube{
+        margin: 80px 0 0 15px;
+    }
+    .vid{
+        width: 325px;
+    }
+    .video ul li{
+        font-size: 12px;
+    }
+    .naslov-tekst{
+        width: 580px;
+    }
+    #naslov h1{
+        font-size: 28px;
+    }
+    #naslov h2{
+        font-size: 25px;
+    }
+    
+    .holder-footer{
+        width: 505px;
+    }
+    .ikonice{
+        margin-top: 20px;
+        width: 250px;
+    }
+    .kontakti{
+        margin-top: 20px;
+        width: 250px;
+    }
+    .sapica-logo{
+        width: 250px;
+    }
+    .sapica-logo img{
+        margin: 10px 0 0 65px;
+    }
+    .onama{
+        width: 250px;
+    }
+    .onama p{
+        font-size: 13px;
+    }
+    .kontakti ul li{
+        font-size: 15px;
+    }
+}   
+@media all and (max-width: 575px){
+    header{
+        height: 40px;
+    }
+    header nav{
+        width: 25px;
+        height: 10px;
+        position: relative;
+        padding: 6px 5px;
+        border-radius: 3px;
+        border: 2px solid grey;
+        float: right;
+        margin: 3px auto;
+        background-color: #ecb623;
+        
+    }
+    header nav ul{
+        width: 180px;
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0;
+        padding-top: 50px;
+        /* background-color: red; */
+        margin-top: 0;
+    }
+    header nav:hover ul{
+        display: block;
+    }
+    header nav ul li{
+        margin-left: 0;
+        float: none;
+        margin-bottom: 5px;
+    }
+    header nav ul li:last-of-type{
+        margin-bottom: 0;
+    }
+    header nav ul li a{
+        padding: 5px 0;
+        display: block;
+        text-align: center;
+        border: none;
+        background-color: #82d1be;
+    }
+    header nav ul li:hover a{
+        background-color: #ecb623;
+    }
+   .line{
+        height: 2px;
+        background-color: grey;
+        margin-bottom: 7px;
+   }
+   .line:last-of-type{
+        margin-bottom: 0;
+   }
+   .logo{
+        width: 160px;
+   }
+   .logov1{
+        display: none;
+     }
+     .logov2{
+        display: block;
+        width: 43px;
+        /* float: right; */
+        margin: 3px auto;
+        transition: all .7s;
+     }
+     .logo:hover .logov2{
+        transform: rotateX(80deg);
+        transform: rotateY(80deg);
+    }
+    .bgr{
+        background-position: center 40px;
+    }
+    .zuti{
+        display: none;
+    }
+    .sivi{
+        display: none;
+    }
+    .holder{
+        width: 280px;
+        /* background-color: green; */
+    }
+    article{
+        width: 280px;
+        margin-left: 0;
+    }
+    .holder-tekst{
+        width: 280px;
+    }
+    .prvi{
+        width: 270px;
+        margin-left: 10px;
+    }
+    .prvi h1{
+        font-size: 10px;
+    }
+    .prvi p{
+        font-size: 8px;
+    }
+    .drugi{
+        width: 270px;
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+    .drugi h1{
+        font-size: 10px;
+    }
+    .drugi p{
+        font-size: 8px;
+    }
+    .next {
+        right: 30px;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev{
+        left: 30px;
+    }
+    .nekitekst {
+        position: absolute;
+        width: 270px;
+        background-color: rgb(28 38 6 /30%);
+        top: 105px;
+        left: calc(50% - 60px);
+    }
+    .nekitekst h1{
+        font-size: 12px;
+    }
+    .linija{
+        height: 40px;
+        top: 8px;
+        left: 175px;
+    }
+    .posto{
+        top: -6px;
+        left: 175px;
+    }
+    
+    .posto h1{
+        font-size: 30px;
+    }
+    #galerija{
+        display: none;
+    }
+    .video{
+        width: 500px;
+    }
+    .video ul{
+        margin-right: 160px;
+    }
+    .youtube{
+        margin: 80px 0 0 90px;
+    }
+    .vid{
+        width: 400px;
+    }
+    .video ul li{
+        font-size: 12px;
+    }
+    .naslov-tekst{
+        width: 520px;
+    }
+    #naslov h1{
+        font-size: 25px;
+    }
+    #naslov h2{
+        font-size: 22px;
+    }
+    .holder-footer{
+        width: 253px;
+    }
+    .ikonice{
+        margin-top: 20px;
+        width: 250px;
+    }
+    .kontakti{
+        margin-top: 20px;
+        width: 250px;
+    }
+    .sapica-logo{
+        width: 250px;
+    }
+    .sapica-logo img{
+        margin: 10px 0 0 65px;
+    }
+    .onama{
+        width: 250px;
+        margin-top: 20px;
+    }
+    .onama p{
+        font-size: 13px;
+    }
+    .kontakti ul li{
+        font-size: 15px;
+    }
+}
